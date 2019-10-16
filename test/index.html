@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>	
+  
+  <body>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+	<script src="control.js"></script>
+    <h1>My First Web Page</h1>
+
+    <div id="d1">
+		Hello World
+	</div>
+		
+	<div id="d2">
+		Nice Nice Nice
+	</div>
+	
+	<p>
+	  <input type="button" value="CHANGE COLOR" onclick= "changecolor()">
+	  <input type="button" value="CHANGE TEXT" onclick= "changetext()">
+	</p>
+	
+	<canvas id="c1">
+	
+	</canvas>
+	
+	<p>
+	  <input type="button" value="make lime" onclick= "dolime()">
+	  <input type="button" value="make yellow" onclick= "doyellow()">
+	  <input type="color" value="#001A57" id="clr" onchange= "docolor()">
+	  <input type="range" min="10" max="100" value="10" id="sldr" oninput= "dosquare()">
+	  <input type="button" value="Grayscale Converter" onclick= "makeGray()">
+	</p>
+	
+	<p>Filename: 
+	  <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+	</p>
+
+		  
+  </body>
+</html>
