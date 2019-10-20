@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	
+  <head>
+  	<meta charset="utf-8">
+  	<title>Hello Coursera!</title>
+  	<h1>Coursera TEST, this is a TEST</h1>
+  	<style>
+  		h1{
+  			color: purple;
+  			text-align: center;
+  		}
+  		h2{
+  			color: blue;
+  		}
+  		h3{
+  			color: orange;
+  		}
+  		section{
+  			background-color: yellow;
+  			text-align: center;
+  		}
+  		section.blue{
+  			color: black;
+  			background-color: blue;
+  		}
+  		#section1{
+  			background-color: pink;
+  		}
+  		footer{
+  			font-size: 50px;
+  			background-color: red;
+  		}
+  		section > h2{
+  			color:black;
+  		}
+  		header li{
+  			list-style: none;
+  		}
+  		header a:link, header a:visited{
+  			text-decoration: none;
+  			background-color: green;
+  			border: 1px solid blue;
+  			color: black;
+  			display: block;
+  			width: 200px;
+  			text-align: center;
+  			margin-bottom: 1px;
+  		}
+  		a:hover, a:active{
+  			background-color: red;
+  			color: purple;
+  		}
+  		header li:nth-child(3), header li:nth-child(2){
+  			font-size: 24px;
+  		}
+  	</style>
+  </head>	
+
+  <header>
+  	<ul>
+  		<li><a href="#section4">Section 4</a></li>
+  		<li><a href="green_screen.html">Green Screen</a></li>
+  		<li><a href="https://www.youtube.com/">YouTube</a></li>
+  	</ul>
+
+  </header>
+  
+  <body>
+    <section id="section1">
+      <h2>Internal</h2>
+      <h3>Internal Link</h3>
+      <a href="green_screen.html" title="same dir link"><div>Linking to Green Screen</div></a>
+      <h3>Internal Image</h3>
+      <img src="screen.png" width="300" height="300" alt="Internal Picture">
+    </section>
+    <section id="section2">
+      <h2>External</h2>
+      <h3>External Link</h3>
+      <a href="https://www.elgato.com/en/gaming/green-screen" title="web green screen" target="_blank">Linking Web Green Screen</a>
+      <h3>External Image</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/President_Roosevelt_-_Pach_Bros.jpg/330px-President_Roosevelt_-_Pach_Bros.jpg" alt="External Picture" width="200" height="300">
+    </section>
+    <section class="blue" id="section3">
+      <h2>Logo as an external link:</h2>
+      <a href="https://www.paypal.com/us/home" title="PayPal Link" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/345px-PayPal.svg.png" alt="External Picture"></a>
+    </section>
+    <section class="blue" id="section4">
+      <h2>Logo as an external link:</h2>
+      <a href="https://www.ebay.com/" title="PayPal Link" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/EBay_logo.svg/375px-EBay_logo.svg.png" alt="External Picture"></a>
+    </section>
+  </body>
+  <footer>
+  	<a href="#section1">Top of Page</a>
+  </footer>
+</html>
