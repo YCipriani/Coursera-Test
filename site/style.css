@@ -1,0 +1,67 @@
+header li:nth-child(odd){
+    text-decoration: none;
+    background-color: red;
+    font-size: 20px;
+    font-style: bold;
+    height: 50px;
+    width: 300px;
+
+}
+header li:nth-child(even){
+    text-decoration: none;
+    background-color: blue;
+    font-style: italic;
+    height: 50px;
+    width: 300px;
+}
+header li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+p.nav{
+    font-family: Arail, Helvetica, sans-serif: 
+    font-weight: bold;
+    font-size: 24px;
+    color: #0000ff;
+    text-transform: capitalize;
+    text-align: right;
+}
+
+canvas {
+    margin-top: 20px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+
+ol.first {
+    background-color: teal;
+    width: 50%;
+    float: left;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 2px solid purple;
+}
+
+div.second {
+    width: 50%;
+    background-color: red;
+    float: left;
+    overflow: hidden;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: 2px solid orange;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
